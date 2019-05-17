@@ -55,4 +55,11 @@ class Song
     new_song
   end 
   
+  def self.create_from_filname
+    self.new_from_filename.save
+  end
+  
+  def self.destroy_all
+    self.all.clear 
+  end 
 end
