@@ -29,7 +29,8 @@ class Song
   end 
   
   def self.find_by_name(title) 
-    self.all.include?(title)
+    song = self.all.include?(title)
+    song
   end 
   
 end
