@@ -49,7 +49,7 @@ class Song
     artist = data[1]
     #make new instance with above data
     new_song = self.new 
-    new_song.name = title
+    new_song.name = name 
     new_song.artist_name = artist
     new_song
   end 
