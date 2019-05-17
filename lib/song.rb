@@ -43,7 +43,7 @@ class Song
   
   def self.new_from_filename(filename)
     #parse the data
-    song = filename.split("-")[1].chomp(".mp3")
+    song = filename.split("- ")[1].chomp(".mp3")
     data = song.split(",")
     title = data[1]
     artist = data[0]
