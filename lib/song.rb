@@ -50,7 +50,7 @@ class Song
     new_song = self.new 
     new_song.name = title
     new_song.artist = artist
-    
+    new_song
   end 
   
 end
